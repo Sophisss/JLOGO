@@ -23,11 +23,6 @@ public class PaperController {
         this.cursor = cursor;
     }
 
-    public PaperController(String path, Cursor cursor) {
-        this.paper = fileController.readFile(path);
-        this.cursor = cursor;
-    }
-
     /**
      * Metodo che mi crea il mio disegno.
      */
